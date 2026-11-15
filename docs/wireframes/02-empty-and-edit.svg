@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1282 1050" width="1282" height="1050" role="img" aria-labelledby="title desc">
+<title id="title">SimNotes mobile wireframes. Starting and editing</title>
+<desc id="desc">Create a notebook from the empty state or open an existing note for editing</desc>
+<style>
+  text { font-family: "Comic Sans MS", "Comic Sans", system-ui, sans-serif; }
+  .meta { font-family: system-ui, sans-serif; }
+</style>
+<defs>
+  <clipPath id="screen"><rect width="390" height="844" rx="16"/></clipPath>
+  <symbol id="i-back" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5m6 6-6-6 6-6"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 4 4L19 6"/></symbol>
+  <symbol id="i-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m6 6 12 12M6 18 18 6"/></symbol>
+  <symbol id="i-edit" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m4 20 4.5-1 11-11a2 2 0 0 0-2.8-2.8l-11 11L4 20Zm10.8-12.8 2.8 2.8"/></symbol>
+  <symbol id="i-list" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 8h6m-6 4h6m-6 4h4"/></symbol>
+  <symbol id="i-more" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="5" r="1"/><circle cx="12" cy="12" r="1"/><circle cx="12" cy="19" r="1"/></symbol>
+  <symbol id="i-plus" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></symbol>
+  <symbol id="i-settings" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 12h16M4 18h16"/><path d="M8 4v4m8 2v4m-6 2v4" stroke-width="3"/></symbol>
+</defs>
+<rect x="0" y="0" width="1282" height="1050" fill="#EEEEEE"/>
+<text x="32" y="30" font-size="13" fill="#555555" font-weight="700" class="meta">SIMNOTES / MOBILE WIREFRAMES / 02</text>
+<text x="32" y="70" font-size="35" fill="#1A1A1A" font-weight="700">Starting and editing</text>
+<text x="32" y="99" font-size="16" fill="#555555" class="meta">Create a notebook from the empty state or open an existing note for editing</text>
+<text x="32" y="132" font-size="16" fill="#1A1A1A" font-weight="700" class="meta">04 / No notebooks yet</text>
+<g transform="translate(32 146)" aria-label="No notebooks yet">
+<g clip-path="url(#screen)">
+<rect x="0" y="0" width="390" height="844" fill="#FFFFFF"/>
+<use href="#i-settings" x="24" y="30" width="24" height="24" color="#1A1A1A"/>
+<text x="64" y="50" font-size="22" fill="#1A1A1A" font-weight="700">SimNotes</text>
+<rect x="276" y="24" width="98" height="36" fill="#F4F4F4" rx="18" stroke="#D7D7D7"/>
+<circle cx="294" cy="42" r="9" fill="none" stroke="#1A1A1A" stroke-width="1.4"/>
+<use href="#i-check" x="287" y="35" width="14" height="14" color="#1A1A1A"/>
+<text x="309" y="47" font-size="13" fill="#1A1A1A" font-weight="700">Synced</text>
+<path d="M0 72H390" fill="none" stroke="#D7D7D7" stroke-width="1" stroke-linecap="round"/>
+<text x="24" y="128" font-size="34" fill="#1A1A1A" font-weight="700">Notebooks</text>
+<rect x="159" y="284" width="72" height="72" fill="#F4F4F4" rx="24" stroke="#D7D7D7"/>
+<use href="#i-list" x="177" y="302" width="36" height="36" color="#1A1A1A"/>
+<text x="195" y="399" font-size="25" fill="#1A1A1A" font-weight="700" text-anchor="middle">No notebooks yet</text>
+<text x="195" y="429" font-size="16" fill="#555555" text-anchor="middle">Create one to start taking notes.</text>
+<rect x="111" y="458" width="168" height="56" fill="#1A1A1A" rx="28.0"/>
+<use href="#i-plus" x="127" y="476.0" width="20" height="20" color="#FFFFFF"/>
+<text x="207.0" y="491.0" font-size="15" fill="#FFFFFF" font-weight="700" text-anchor="middle">New notebook</text>
+</g>
+<rect x="0" y="0" width="390" height="844" fill="none" rx="16" stroke="#A0A0A0"/>
+</g>
+<text x="32" y="1017" font-size="14" fill="#555555" class="meta">Create a notebook to start writing.</text>
+<text x="446" y="132" font-size="16" fill="#1A1A1A" font-weight="700" class="meta">05 / New notebook</text>
+<g transform="translate(446 146)" aria-label="New notebook">
+<g clip-path="url(#screen)">
+<rect x="0" y="0" width="390" height="844" fill="#FFFFFF"/>
+<use href="#i-settings" x="24" y="30" width="24" height="24" color="#1A1A1A"/>
+<text x="64" y="50" font-size="22" fill="#1A1A1A" font-weight="700">SimNotes</text>
+<rect x="276" y="24" width="98" height="36" fill="#F4F4F4" rx="18" stroke="#D7D7D7"/>
+<circle cx="294" cy="42" r="9" fill="none" stroke="#1A1A1A" stroke-width="1.4"/>
+<use href="#i-check" x="287" y="35" width="14" height="14" color="#1A1A1A"/>
+<text x="309" y="47" font-size="13" fill="#1A1A1A" font-weight="700">Synced</text>
+<path d="M0 72H390" fill="none" stroke="#D7D7D7" stroke-width="1" stroke-linecap="round"/>
+<text x="24" y="128" font-size="34" fill="#1A1A1A" font-weight="700">Notebooks</text>
+<rect x="159" y="284" width="72" height="72" fill="#F4F4F4" rx="24" stroke="#D7D7D7"/>
+<use href="#i-list" x="177" y="302" width="36" height="36" color="#1A1A1A"/>
+<text x="195" y="399" font-size="25" fill="#1A1A1A" font-weight="700" text-anchor="middle">No notebooks yet</text>
+<text x="195" y="429" font-size="16" fill="#555555" text-anchor="middle">Create one to start taking notes.</text>
+<rect x="111" y="458" width="168" height="56" fill="#1A1A1A" rx="28.0"/>
+<use href="#i-plus" x="127" y="476.0" width="20" height="20" color="#FFFFFF"/>
+<text x="207.0" y="491.0" font-size="15" fill="#FFFFFF" font-weight="700" text-anchor="middle">New notebook</text>
+<rect width="390" height="844" fill="#000000" opacity=".25"/>
+<rect x="0" y="320" width="390" height="548" fill="#F4F4F4" rx="28"/>
+<rect x="179" y="330" width="32" height="4" fill="#767676" rx="2"/>
+<text x="24" y="381" font-size="24" fill="#1A1A1A" font-weight="700">New notebook</text>
+<use href="#i-close" x="334" y="358" width="24" height="24" color="#1A1A1A"/>
+<rect x="24" y="400" width="342" height="64" fill="#FFFFFF" rx="12" stroke="#1A1A1A"/>
+<text x="40" y="423" font-size="12" fill="#555555">Notebook name</text>
+<text x="40" y="446" font-size="16" fill="#1A1A1A">Quick notes</text>
+<path d="M133 429v19" fill="none" stroke="#1A1A1A" stroke-width="1.5" stroke-linecap="round"/>
+<rect x="168" y="488" width="82" height="48" fill="#FFFFFF" rx="24.0"/>
+<text x="209.0" y="517.0" font-size="15" fill="#1A1A1A" font-weight="700" text-anchor="middle">Cancel</text>
+<rect x="262" y="488" width="104" height="48" fill="#1A1A1A" rx="24.0"/>
+<text x="314.0" y="517.0" font-size="15" fill="#FFFFFF" font-weight="700" text-anchor="middle">Create</text>
+<rect x="0" y="560" width="390" height="284" fill="#EEEEEE"/>
+<path d="M0 560H390" fill="none" stroke="#767676" stroke-width="1" stroke-linecap="round"/>
+<text x="195" y="705.0" font-size="14" fill="#555555" text-anchor="middle" class="meta">System keyboard</text>
+</g>
+<rect x="0" y="0" width="390" height="844" fill="none" rx="16" stroke="#A0A0A0"/>
+</g>
+<text x="446" y="1017" font-size="14" fill="#555555" class="meta">Name the notebook and open it.</text>
+<text x="860" y="132" font-size="16" fill="#1A1A1A" font-weight="700" class="meta">06 / Edit note</text>
+<g transform="translate(860 146)" aria-label="Edit note">
+<g clip-path="url(#screen)">
+<rect x="0" y="0" width="390" height="844" fill="#FFFFFF"/>
+<use href="#i-back" x="24" y="30" width="24" height="24" color="#1A1A1A"/>
+<text x="64" y="50" font-size="18" fill="#1A1A1A" font-weight="700">Notebooks</text>
+<rect x="276" y="24" width="98" height="36" fill="#F4F4F4" rx="18" stroke="#D7D7D7"/>
+<circle cx="294" cy="42" r="9" fill="none" stroke="#1A1A1A" stroke-width="1.4"/>
+<use href="#i-check" x="287" y="35" width="14" height="14" color="#1A1A1A"/>
+<text x="309" y="47" font-size="13" fill="#1A1A1A" font-weight="700">Synced</text>
+<path d="M0 72H390" fill="none" stroke="#D7D7D7" stroke-width="1" stroke-linecap="round"/>
+<text x="24" y="128" font-size="34" fill="#1A1A1A" font-weight="700">Quick notes</text>
+<use href="#i-edit" x="286" y="104" width="22" height="22" color="#555555"/>
+<rect x="326" y="96" width="40" height="40" fill="#F4F4F4" rx="20"/>
+<use href="#i-more" x="334" y="104" width="24" height="24" color="#1A1A1A"/>
+<text x="36" y="185" font-size="17" fill="#1A1A1A">Window light is best</text>
+<text x="36" y="207" font-size="17" fill="#1A1A1A">for photos before noon.</text>
+<use href="#i-edit" x="291" y="180" width="20" height="20" color="#555555"/>
+<rect x="337" y="180" width="20" height="20" fill="#FFFFFF" rx="4" stroke="#767676"/>
+<path d="M24 226H366" fill="none" stroke="#D7D7D7" stroke-width="1" stroke-linecap="round"/>
+<text x="36" y="268" font-size="17" fill="#1A1A1A">The café closes at four.</text>
+<use href="#i-edit" x="291" y="252" width="20" height="20" color="#555555"/>
+<rect x="337" y="252" width="20" height="20" fill="#FFFFFF" rx="4" stroke="#767676"/>
+<path d="M24 298H366" fill="none" stroke="#D7D7D7" stroke-width="1" stroke-linecap="round"/>
+<text x="36" y="340" font-size="17" fill="#1A1A1A">Shelf width is 82 cm.</text>
+<use href="#i-edit" x="291" y="324" width="20" height="20" color="#555555"/>
+<rect x="337" y="324" width="20" height="20" fill="#FFFFFF" rx="4" stroke="#767676"/>
+<path d="M24 370H366" fill="none" stroke="#D7D7D7" stroke-width="1" stroke-linecap="round"/>
+<rect x="24" y="386" width="342" height="56" fill="#F4F4F4" rx="14" stroke="#767676"/>
+<use href="#i-plus" x="38" y="402" width="24" height="24" color="#1A1A1A"/>
+<text x="74" y="420" font-size="16" fill="#1A1A1A">Write a note</text>
+<rect width="390" height="844" fill="#000000" opacity=".25"/>
+<rect x="0" y="290" width="390" height="578" fill="#F4F4F4" rx="28"/>
+<rect x="179" y="300" width="32" height="4" fill="#767676" rx="2"/>
+<text x="24" y="351" font-size="24" fill="#1A1A1A" font-weight="700">Edit note</text>
+<use href="#i-close" x="334" y="328" width="24" height="24" color="#1A1A1A"/>
+<rect x="24" y="368" width="342" height="94" fill="#FFFFFF" rx="12" stroke="#1A1A1A"/>
+<text x="40" y="391" font-size="12" fill="#555555">Note</text>
+<text x="40" y="414" font-size="16" fill="#1A1A1A">Window light is best</text>
+<text x="40" y="436" font-size="16" fill="#1A1A1A">for photos before 11.</text>
+<path d="M200 421v18" fill="none" stroke="#1A1A1A" stroke-width="1.5" stroke-linecap="round"/>
+<rect x="24" y="486" width="84" height="48" fill="#FFFFFF" rx="24.0" stroke="#767676"/>
+<text x="66.0" y="515.0" font-size="15" fill="#1A1A1A" font-weight="700" text-anchor="middle">Delete</text>
+<rect x="168" y="486" width="82" height="48" fill="#FFFFFF" rx="24.0"/>
+<text x="209.0" y="515.0" font-size="15" fill="#1A1A1A" font-weight="700" text-anchor="middle">Cancel</text>
+<rect x="262" y="486" width="104" height="48" fill="#1A1A1A" rx="24.0"/>
+<text x="314.0" y="515.0" font-size="15" fill="#FFFFFF" font-weight="700" text-anchor="middle">Save</text>
+<rect x="0" y="560" width="390" height="284" fill="#EEEEEE"/>
+<path d="M0 560H390" fill="none" stroke="#767676" stroke-width="1" stroke-linecap="round"/>
+<text x="195" y="705.0" font-size="14" fill="#555555" text-anchor="middle" class="meta">System keyboard</text>
+</g>
+<rect x="0" y="0" width="390" height="844" fill="none" rx="16" stroke="#A0A0A0"/>
+</g>
+<text x="860" y="1017" font-size="14" fill="#555555" class="meta">Save the changes or cancel to keep the original.</text>
+</svg>

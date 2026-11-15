@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1696 1086" width="1696" height="1086" role="img" aria-labelledby="title desc">
+<title id="title">SimNotes mobile wireframes. Checking off a note</title>
+<desc id="desc">The note pops once, leaves the active notebook, and appears only in Done</desc>
+<style>
+  text { font-family: "Comic Sans MS", "Comic Sans", system-ui, sans-serif; }
+  .meta { font-family: system-ui, sans-serif; }
+</style>
+<defs>
+  <clipPath id="screen"><rect width="390" height="844" rx="16"/></clipPath>
+  <symbol id="i-back" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5m6 6-6-6 6-6"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 4 4L19 6"/></symbol>
+  <symbol id="i-done" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="3"/><path d="m8 12 2.5 2.5L16 9"/></symbol>
+  <symbol id="i-edit" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m4 20 4.5-1 11-11a2 2 0 0 0-2.8-2.8l-11 11L4 20Zm10.8-12.8 2.8 2.8"/></symbol>
+  <symbol id="i-more" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="5" r="1"/><circle cx="12" cy="12" r="1"/><circle cx="12" cy="19" r="1"/></symbol>
+  <symbol id="i-plus" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></symbol>
+</defs>
+<rect x="0" y="0" width="1696" height="1086" fill="#EEEEEE"/>
+<text x="32" y="30" font-size="13" fill="#555555" font-weight="700" class="meta">SIMNOTES / MOBILE WIREFRAMES / 04</text>
+<text x="32" y="70" font-size="35" fill="#1A1A1A" font-weight="700">Checking off a note</text>
+<text x="32" y="99" font-size="16" fill="#555555" class="meta">The note pops once, leaves the active notebook, and appears only in Done</text>
+<text x="32" y="132" font-size="16" fill="#1A1A1A" font-weight="700" class="meta">10 / Check and pop</text>
+<g transform="translate(32 146)" aria-label="Check and pop">
+<g clip-path="url(#screen)">
+<rect x="0" y="0" width="390" height="844" fill="#FFFFFF"/>
+<use href="#i-back" x="24" y="30" width="24" height="24" color="#1A1A1A"/>
+<text x="64" y="50" font-size="18" fill="#1A1A1A" font-weight="700">Notebooks</text>
+<rect x="276" y="24" width="98" height="36" fill="#F4F4F4" rx="18" stroke="#D7D7D7"/>
+<circle cx="294" cy="42" r="9" fill="none" stroke="#1A1A1A" stroke-width="1.4"/>
+<use href="#i-check" x="287" y="35" width="14" height="14" color="#1A1A1A"/>
+<text x="309" y="47" font-size="13" fill="#1A1A1A" font-weight="700">Synced</text>
+<path d="M0 72H390" fill="none" stroke="#D7D7D7" stroke-width="1" stroke-linecap="round"/>
+<text x="24" y="128" font-size="34" fill="#1A1A1A" font-weight="700">Quick notes</text>
+<use href="#i-edit" x="286" y="104" width="22" height="22" color="#555555"/>
+<rect x="326" y="96" width="40" height="40" fill="#F4F4F4" rx="20"/>
+<use href="#i-more" x="334" y="104" width="24" height="24" color="#1A1A1A"/>
+<text x="36" y="185" font-size="17" fill="#1A1A1A">Window light is best</text>
+<text x="36" y="207" font-size="17" fill="#1A1A1A">for photos before noon.</text>
+<use href="#i-edit" x="291" y="180" width="20" height="20" color="#555555"/>
+<rect x="337" y="180" width="20" height="20" fill="#FFFFFF" rx="4" stroke="#767676"/>
+<path d="M24 226H366" fill="none" stroke="#D7D7D7" stroke-width="1" stroke-linecap="round"/>
+<g transform="translate(195 262) scale(1.05) translate(-195 -262)">
+<rect x="24" y="230" width="342" height="64" fill="#F4F4F4" rx="14" stroke="#767676"/>
+<text x="36" y="268" font-size="17" fill="#1A1A1A">The café closes at four.</text>
+<use href="#i-edit" x="291" y="252" width="20" height="20" color="#555555"/>
+<rect x="337" y="252" width="20" height="20" fill="#1A1A1A" rx="4"/>
+<use href="#i-check" x="339" y="254" width="16" height="16" color="#FFFFFF"/>
+</g>
+<path d="M349 245v-5m10 8 4-4m-1 11 5-1" fill="none" stroke="#555555" stroke-width="1.5" stroke-linecap="round"/>
+<text x="36" y="340" font-size="17" fill="#1A1A1A">Shelf width is 82 cm.</text>
+<use href="#i-edit" x="291" y="324" width="20" height="20" color="#555555"/>
+<rect x="337" y="324" width="20" height="20" fill="#FFFFFF" rx="4" stroke="#767676"/>
+<path d="M24 370H366" fill="none" stroke="#D7D7D7" stroke-width="1" stroke-linecap="round"/>
+<rect x="24" y="386" width="342" height="56" fill="#F4F4F4" rx="14" stroke="#767676"/>
+<use href="#i-plus" x="38" y="402" width="24" height="24" color="#1A1A1A"/>
+<text x="74" y="420" font-size="16" fill="#1A1A1A">Write a note</text>
+</g>
+<rect x="0" y="0" width="390" height="844" fill="none" rx="16" stroke="#A0A0A0"/>
+</g>
+<text x="32" y="1017" font-size="14" fill="#555555" class="meta">Tap the checkbox. The note pops briefly.</text>
+<text x="446" y="132" font-size="16" fill="#1A1A1A" font-weight="700" class="meta">11 / Note disappears</text>
+<g transform="translate(446 146)" aria-label="Note disappears">
+<g clip-path="url(#screen)">
+<rect x="0" y="0" width="390" height="844" fill="#FFFFFF"/>
+<use href="#i-back" x="24" y="30" width="24" height="24" color="#1A1A1A"/>
+<text x="64" y="50" font-size="18" fill="#1A1A1A" font-weight="700">Notebooks</text>
+<rect x="276" y="24" width="98" height="36" fill="#F4F4F4" rx="18" stroke="#D7D7D7"/>
+<circle cx="294" cy="42" r="9" fill="none" stroke="#1A1A1A" stroke-width="1.4"/>
+<use href="#i-check" x="287" y="35" width="14" height="14" color="#1A1A1A"/>
+<text x="309" y="47" font-size="13" fill="#1A1A1A" font-weight="700">Synced</text>
+<path d="M0 72H390" fill="none" stroke="#D7D7D7" stroke-width="1" stroke-linecap="round"/>
+<text x="24" y="128" font-size="34" fill="#1A1A1A" font-weight="700">Quick notes</text>
+<use href="#i-edit" x="286" y="104" width="22" height="22" color="#555555"/>
+<rect x="326" y="96" width="40" height="40" fill="#F4F4F4" rx="20"/>
+<use href="#i-more" x="334" y="104" width="24" height="24" color="#1A1A1A"/>
+<text x="36" y="185" font-size="17" fill="#1A1A1A">Window light is best</text>
+<text x="36" y="207" font-size="17" fill="#1A1A1A">for photos before noon.</text>
+<use href="#i-edit" x="291" y="180" width="20" height="20" color="#555555"/>
+<rect x="337" y="180" width="20" height="20" fill="#FFFFFF" rx="4" stroke="#767676"/>
+<path d="M24 226H366" fill="none" stroke="#D7D7D7" stroke-width="1" stroke-linecap="round"/>
+<text x="36" y="268" font-size="17" fill="#1A1A1A">Shelf width is 82 cm.</text>
+<use href="#i-edit" x="291" y="252" width="20" height="20" color="#555555"/>
+<rect x="337" y="252" width="20" height="20" fill="#FFFFFF" rx="4" stroke="#767676"/>
+<path d="M24 298H366" fill="none" stroke="#D7D7D7" stroke-width="1" stroke-linecap="round"/>
+<rect x="24" y="314" width="342" height="56" fill="#F4F4F4" rx="14" stroke="#767676"/>
+<use href="#i-plus" x="38" y="330" width="24" height="24" color="#1A1A1A"/>
+<text x="74" y="348" font-size="16" fill="#1A1A1A">Write a note</text>
+</g>
+<rect x="0" y="0" width="390" height="844" fill="none" rx="16" stroke="#A0A0A0"/>
+</g>
+<text x="446" y="1017" font-size="14" fill="#555555" class="meta">After the pop, the note leaves the active list</text>
+<text x="446" y="1036" font-size="14" fill="#555555" class="meta">and the remaining notes close the gap.</text>
+<text x="860" y="132" font-size="16" fill="#1A1A1A" font-weight="700" class="meta">12 / Open the notebook menu</text>
+<g transform="translate(860 146)" aria-label="Open the notebook menu">
+<g clip-path="url(#screen)">
+<rect x="0" y="0" width="390" height="844" fill="#FFFFFF"/>
+<use href="#i-back" x="24" y="30" width="24" height="24" color="#1A1A1A"/>
+<text x="64" y="50" font-size="18" fill="#1A1A1A" font-weight="700">Notebooks</text>
+<rect x="276" y="24" width="98" height="36" fill="#F4F4F4" rx="18" stroke="#D7D7D7"/>
+<circle cx="294" cy="42" r="9" fill="none" stroke="#1A1A1A" stroke-width="1.4"/>
+<use href="#i-check" x="287" y="35" width="14" height="14" color="#1A1A1A"/>
+<text x="309" y="47" font-size="13" fill="#1A1A1A" font-weight="700">Synced</text>
+<path d="M0 72H390" fill="none" stroke="#D7D7D7" stroke-width="1" stroke-linecap="round"/>
+<text x="24" y="128" font-size="34" fill="#1A1A1A" font-weight="700">Quick notes</text>
+<use href="#i-edit" x="286" y="104" width="22" height="22" color="#555555"/>
+<rect x="326" y="96" width="40" height="40" fill="#F4F4F4" rx="20"/>
+<use href="#i-more" x="334" y="104" width="24" height="24" color="#1A1A1A"/>
+<text x="36" y="185" font-size="17" fill="#1A1A1A">Window light is best</text>
+<text x="36" y="207" font-size="17" fill="#1A1A1A">for photos before noon.</text>
+<use href="#i-edit" x="291" y="180" width="20" height="20" color="#555555"/>
+<rect x="337" y="180" width="20" height="20" fill="#FFFFFF" rx="4" stroke="#767676"/>
+<path d="M24 226H366" fill="none" stroke="#D7D7D7" stroke-width="1" stroke-linecap="round"/>
+<text x="36" y="268" font-size="17" fill="#1A1A1A">Shelf width is 82 cm.</text>
+<use href="#i-edit" x="291" y="252" width="20" height="20" color="#555555"/>
+<rect x="337" y="252" width="20" height="20" fill="#FFFFFF" rx="4" stroke="#767676"/>
+<path d="M24 298H366" fill="none" stroke="#D7D7D7" stroke-width="1" stroke-linecap="round"/>
+<rect x="24" y="314" width="342" height="56" fill="#F4F4F4" rx="14" stroke="#767676"/>
+<use href="#i-plus" x="38" y="330" width="24" height="24" color="#1A1A1A"/>
+<text x="74" y="348" font-size="16" fill="#1A1A1A">Write a note</text>
+<rect x="232" y="142" width="134" height="62" fill="#F4F4F4" rx="14" stroke="#767676"/>
+<use href="#i-done" x="245" y="162" width="22" height="22" color="#1A1A1A"/>
+<text x="275" y="179" font-size="16" fill="#1A1A1A" font-weight="700">View Done</text>
+</g>
+<rect x="0" y="0" width="390" height="844" fill="none" rx="16" stroke="#A0A0A0"/>
+</g>
+<text x="860" y="1017" font-size="14" fill="#555555" class="meta">Choose View Done from the three-dot menu.</text>
+<text x="1274" y="132" font-size="16" fill="#1A1A1A" font-weight="700" class="meta">13 / Done</text>
+<g transform="translate(1274 146)" aria-label="Done">
+<g clip-path="url(#screen)">
+<rect x="0" y="0" width="390" height="844" fill="#FFFFFF"/>
+<use href="#i-back" x="24" y="30" width="24" height="24" color="#1A1A1A"/>
+<text x="64" y="50" font-size="18" fill="#1A1A1A" font-weight="700">Quick notes</text>
+<rect x="276" y="24" width="98" height="36" fill="#F4F4F4" rx="18" stroke="#D7D7D7"/>
+<circle cx="294" cy="42" r="9" fill="none" stroke="#1A1A1A" stroke-width="1.4"/>
+<use href="#i-check" x="287" y="35" width="14" height="14" color="#1A1A1A"/>
+<text x="309" y="47" font-size="13" fill="#1A1A1A" font-weight="700">Synced</text>
+<path d="M0 72H390" fill="none" stroke="#D7D7D7" stroke-width="1" stroke-linecap="round"/>
+<text x="24" y="128" font-size="34" fill="#1A1A1A" font-weight="700">Done</text>
+<text x="24" y="196" font-size="16" fill="#1A1A1A">The café closes at four.</text>
+<rect x="284" y="166" width="82" height="48" fill="#FFFFFF" rx="24.0" stroke="#767676"/>
+<text x="325.0" y="195.0" font-size="15" fill="#1A1A1A" font-weight="700" text-anchor="middle">Restore</text>
+<path d="M24 226H366" fill="none" stroke="#D7D7D7" stroke-width="1" stroke-linecap="round"/>
+<text x="24" y="268" font-size="16" fill="#1A1A1A">The gallery is closed Mondays.</text>
+<rect x="284" y="238" width="82" height="48" fill="#FFFFFF" rx="24.0" stroke="#767676"/>
+<text x="325.0" y="267.0" font-size="15" fill="#1A1A1A" font-weight="700" text-anchor="middle">Restore</text>
+<path d="M24 298H366" fill="none" stroke="#D7D7D7" stroke-width="1" stroke-linecap="round"/>
+</g>
+<rect x="0" y="0" width="390" height="844" fill="none" rx="16" stroke="#A0A0A0"/>
+</g>
+<text x="1274" y="1017" font-size="14" fill="#555555" class="meta">Restore returns a note to the active list.</text>
+<text x="32" y="1064" font-size="14" fill="#555555" class="meta">With reduced motion enabled, the note moves to Done immediately.</text>
+</svg>
