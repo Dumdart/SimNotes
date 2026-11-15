@@ -1,0 +1,19 @@
+[project]
+name = "simnotes"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Paul Thumfart", email = "158182803+Dumdart@users.noreply.github.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi[standard]>=0.163.1",
+]
+
+[project.scripts]
+simnotes = "simnotes:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
