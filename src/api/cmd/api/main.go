@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/avukadin/goapi/internal/handlers"
-	"github.com/avukadin/goapi/internal/routes"
+	"github.com/Dumdart/SimNotes/src/api/internal/handlers"
+	"github.com/Dumdart/SimNotes/src/api/internal/routes"
 	"github.com/go-chi/chi"
 	log "github.com/sirupsen/logrus"
 )
@@ -20,7 +20,7 @@ func main() {
 
 	fmt.Println("Starting GO API service ...")
 
-	err := http.ListenAndServe("localhost:8080", r)
+	err := http.ListenAndServe("localhost:8000", r)
 
 	if err != nil {
 		log.Error(err)

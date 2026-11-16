@@ -1,7 +1,7 @@
 package handlers
 
 import (
-	"github.com/avukadin/goapi/internal/middleware"
+	"github.com/Dumdart/SimNotes/src/api/internal/middleware"
 	"github.com/go-chi/chi"
 	chimiddleware "github.com/go-chi/chi/middleware"
 )

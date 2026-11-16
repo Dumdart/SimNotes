@@ -21,5 +21,16 @@ var notes = map[string]Note{
 
 func (d *mockDB) GetAllNotes() *[]Note {
 	time.Sleep(time.Second * 2)
-	return &[]Note{}
+
+	result := make([]Note, 0, len(notes))
+
+	for _, note := range notes {
+		result = append(result, note)
+	}
+
+	return &result
+}
+
+func (d *mockDB) SetupDatabase() error {
+	return nil
 }

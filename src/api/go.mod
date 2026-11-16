@@ -1,4 +1,4 @@
-module github.com/avukadin/goapi
+module github.com/Dumdart/SimNotes/src/api
 
 go 1.27.3
 

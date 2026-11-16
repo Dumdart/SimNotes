@@ -16,4 +16,18 @@ type CheckList struct {
 
 type DatabaseInterface interface {
 	GetAllNotes() *[]Note
+	SetupDatabase() error
+}
+
+func NewDatabase() (*DatabaseInterface, error) {
+	var db DatabaseInterface = &mockDB{}
+
+	err := db.SetupDatabase()
+
+	if err != nil {
+		return nil, err
+	}
+
+	return &db, nil
+
 }
