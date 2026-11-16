@@ -1,9 +1,11 @@
 package android.simnotes
 
-import platform.UIKit.UIDevice
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.remember
+import platform.UIKit.UIAccessibilityIsReduceMotionEnabled
 
-class IOSPlatform: Platform {
-    override val name: String = UIDevice.currentDevice.systemName() + " " + UIDevice.currentDevice.systemVersion
-}
+@Composable
+internal actual fun rememberNotesStore(): Result<NotesStore> =
+    remember { openNotesStore { FileNotesStorage(notesFile()) } }
 
-actual fun getPlatform(): Platform = IOSPlatform()
+internal actual fun systemReducesMotion(): Boolean = UIAccessibilityIsReduceMotionEnabled()

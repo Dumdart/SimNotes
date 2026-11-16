@@ -2,7 +2,9 @@
 
 Android and iOS client for SimNotes, built with Kotlin Multiplatform and Compose Multiplatform. Both apps use the UI and Kotlin code in `shared`.
 
-**Status:** Initial project scaffold. The app currently shows the Compose greeting demo. Checklist screens, persistence, and integration with the Python API are not implemented yet.
+Create notebooks and write or edit multiline notes. Checking a note moves it to that notebook’s **⋮ → View Done** menu. Choose **Restore** to return it to its original place. SimNotes saves changes in app-private storage and works offline from the first launch.
+
+The shared interface bundles [Comic Neue](https://github.com/crozynski/comicneue) under the [SIL Open Font License](shared/src/commonMain/composeResources/files/comic_neue_ofl.txt).
 
 ## Project layout
 
@@ -73,7 +75,7 @@ On an Apple Silicon Mac, run the iOS simulator tests:
 ./gradlew :shared:iosSimulatorArm64Test
 ```
 
-The existing tests are scaffold checks. iOS tests cannot run on Windows or Linux, so checks on those hosts do not validate the iOS app.
+The common tests cover creating, editing, completing, and restoring notes. Each platform also has a test that reopens a persisted notebook file. Running the iOS simulator tests requires macOS and Xcode.
 
 ## Python API
 
