@@ -1,9 +1,16 @@
 package android.simnotes
 
-import android.os.Build
+import android.animation.ValueAnimator
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.remember
+import androidx.compose.ui.platform.LocalContext
 
-class AndroidPlatform : Platform {
-    override val name: String = "Android ${Build.VERSION.SDK_INT}"
+@Composable
+internal actual fun rememberNotesStore(): Result<NotesStore> {
+    val context = LocalContext.current.applicationContext
+    return remember(context) {
+        openNotesStore { FileNotesStorage(context.filesDir.resolve(NotesFileName)) }
+    }
 }
 
-actual fun getPlatform(): Platform = AndroidPlatform()
+internal actual fun systemReducesMotion(): Boolean = !ValueAnimator.areAnimatorsEnabled()

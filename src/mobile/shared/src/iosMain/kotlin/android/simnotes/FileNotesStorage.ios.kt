@@ -1,5 +1,6 @@
 package android.simnotes
 
+import kotlinx.cinterop.BetaInteropApi
 import kotlinx.cinterop.ExperimentalForeignApi
 import platform.Foundation.NSApplicationSupportDirectory
 import platform.Foundation.NSFileManager
@@ -10,7 +11,7 @@ import platform.Foundation.NSUserDomainMask
 import platform.Foundation.create
 import platform.Foundation.writeToURL
 
-@OptIn(ExperimentalForeignApi::class)
+@OptIn(BetaInteropApi::class, ExperimentalForeignApi::class)
 internal class FileNotesStorage(private val file: NSURL) : NotesStorage {
     override fun read(): String? {
         val path = file.path ?: throw NotesStorageException("Invalid notebook file location")
